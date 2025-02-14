@@ -6,12 +6,25 @@ public class Main {
     public static void Kwame() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter two numbers to find the sum:");
-        int A = scanner.nextInt();  // Directly reading integer input
-        int B = scanner.nextInt();  // Directly reading another integer
+        int a,b,result;
 
-        int c = A + B;
-        System.out.println("Sum = " + c);
+        System.out.println("Enter first number");
+        a= scanner.nextInt();  // Directly reading integer input
+
+        System.out.println("Enter second number");
+        b =scanner.nextInt();  // Directly reading another integer
+//Addition
+        result = a+b;
+        System.out.println("After adding:" + a +"+"+b +"=" +result);
+//Subtraction
+        result = a+b;
+        System.out.println("After adding:" + a +"+"+b +"=" +result);
+//   Multiplication
+        result = a+b;
+        System.out.println("After adding:" + a +"+"+b +"=" +result);
+//Division
+        result = a+b;
+        System.out.println("After adding:" + a +"+"+b +"=" +result);
         scanner.close();
     }
 
