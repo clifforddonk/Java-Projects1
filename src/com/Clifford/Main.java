@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+package com.Clifford;
 
 import java.util.Scanner;
 public class Main {
@@ -7,4 +7,5 @@ public class Main {
     }
    Scanner scanner=new Scanner(System.in);
     int a=0,b=0;
+
 }
