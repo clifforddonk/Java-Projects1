@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int a,b,result;
-
+//User Input
         System.out.println("Enter first number");
         a= scanner.nextInt();  // Directly reading integer input
 
@@ -17,14 +17,14 @@ public class Main {
         result = a+b;
         System.out.println("After adding:" + a +"+"+b +"=" +result);
 //Subtraction
-        result = a+b;
-        System.out.println("After adding:" + a +"+"+b +"=" +result);
+        result = a-b;
+        System.out.println("After subtracting:" + a +"-"+b +"=" +result);
 //   Multiplication
-        result = a+b;
-        System.out.println("After adding:" + a +"+"+b +"=" +result);
+        result = a*b;
+        System.out.println("After Multiplying:" + a +"*"+b +"=" +result);
 //Division
-        result = a+b;
-        System.out.println("After adding:" + a +"+"+b +"=" +result);
+        result = a/b;
+        System.out.println("After Dividing:" + a +"+"+b +"=" +result);
         scanner.close();
     }
 
