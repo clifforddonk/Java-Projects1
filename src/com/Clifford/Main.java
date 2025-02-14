@@ -12,6 +12,7 @@ public class Main {
 
         int c = A + B;
         System.out.println("Sum = " + c);
+        scanner.close();
     }
 
     public static void main(String[] args) {
