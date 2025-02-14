@@ -24,7 +24,7 @@ public class Main {
         System.out.println("After Multiplying:" + a +"*"+b +"=" +result);
 //Division
         result = a/b;
-        System.out.println("After Dividing:" + a +"+"+b +"=" +result);
+        System.out.println("After Dividing:" + a +"/"+b +"=" +result);
         scanner.close();
     }
 
