@@ -7,5 +7,4 @@ public class Main {
     }
    Scanner scanner=new Scanner(System.in);
     int a=0,b=0;
-
 }
