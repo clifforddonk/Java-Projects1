@@ -20,11 +20,11 @@ public class Main {
         str1=scanner.next();
 
         if(str.equalsIgnoreCase((str1)))
-            System.out.println(str + " is equal to "+ str1);
+            System.out.println(str +" and "+ str1+" are the same");
         else
-            System.out.println(str + " is not equal to "+ str1);
+            System.out.println(str +" and "+ str1+" are not the same");
 
-
+        System.out.println(str.compareTo(str1));
 //Addition
         result = a+b;
         System.out.println("After adding:" + a +"+"+b +"=" +result);
