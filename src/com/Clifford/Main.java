@@ -1,11 +1,23 @@
 package com.Clifford;
 
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-   Scanner scanner=new Scanner(System.in);
-    int a=0,b=0;
 
+public class Main {
+    public static void Kwame() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter two numbers to find the sum:");
+        int A = scanner.nextInt();  // Directly reading integer input
+        int B = scanner.nextInt();  // Directly reading another integer
+
+        int c = A + B;
+        System.out.println("Sum = " + c);
+    }
+
+    public static void main(String[] args) {
+        Kwame();  // Call the method
+    }
 }
+
+
+
