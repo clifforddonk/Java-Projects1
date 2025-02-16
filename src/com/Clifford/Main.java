@@ -44,6 +44,7 @@ public class Main {
         Kwame();  // Call the method
         Kwame();  // Call the method
         Kwame();  // Call the method
+        Kwame();  // Call the method
 
 
 
