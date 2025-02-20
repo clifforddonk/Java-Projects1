@@ -6,12 +6,14 @@ public class Main {
     public static void Kwame() {
         Scanner scanner = new Scanner(System.in);
 
-        int a= 0,b = 0,result;
+        int a,b,result;
 //User Input
         System.out.println("Enter first number");
         a= scanner.nextInt();  // Directly reading integer input
 
         System.out.println("Enter second number");
+        b= scanner.nextInt();  // Directly reading integer input
+
         String str,str1;
         System.out.println("Enter two words:");
         str=scanner.next();
@@ -35,13 +37,15 @@ public class Main {
 //Division
         result = a/b;
         System.out.println("After Dividing:" + a +"/"+b +"=" +result);
-        scanner.close();   b =scanner.nextInt();  // Directly reading another integer
+        scanner.close();    // Directly reading another integer
 
 
     }
 
     public static void main(String[] args) {
-//
+//        Kwame();  // Call the method
+//        Kwame();  // Call the method
+//        Kwame();  // Call the method
         Kwame();  // Call the method
 
 
