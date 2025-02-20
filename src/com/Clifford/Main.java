@@ -6,7 +6,7 @@ public class Main {
     public static void Kwame() {
         Scanner scanner = new Scanner(System.in);
 
-        int a,b,result;
+        int a= 0,b = 0,result;
 //User Input
         System.out.println("Enter first number");
         a= scanner.nextInt();  // Directly reading integer input
